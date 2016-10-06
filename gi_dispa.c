@@ -17,6 +17,10 @@
 #include "glk.h"
 #include "gi_dispa.h"
 
+#ifdef __ORCAC__
+segment "gi_dispa__";
+#endif
+
 #ifndef NULL
 #define NULL 0
 #endif

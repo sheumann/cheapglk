@@ -19,22 +19,27 @@
     really a 32-bit unsigned integer type, and glsi32 to make sure
     it's really a 32-bit signed integer type. If they're not, horrible
     things will happen. */
+#ifndef __ORCAC__
 #include <stdint.h>
 typedef uint32_t glui32;
 typedef int32_t glsi32;
+#else
+typedef unsigned long glui32;
+typedef long glsi32;
+#endif
 
 /* These are the compile-time conditionals that reveal various Glk optional
     modules. Note that if GLK_MODULE_SOUND2 is defined, GLK_MODULE_SOUND
     must be also. */
 #define GLK_MODULE_LINE_ECHO
 #define GLK_MODULE_LINE_TERMINATORS
-#define GLK_MODULE_UNICODE
-#define GLK_MODULE_UNICODE_NORM
+//#define GLK_MODULE_UNICODE
+//#define GLK_MODULE_UNICODE_NORM
 #define GLK_MODULE_IMAGE
 #define GLK_MODULE_SOUND
 #define GLK_MODULE_SOUND2
 #define GLK_MODULE_HYPERLINKS
-#define GLK_MODULE_DATETIME
+//#define GLK_MODULE_DATETIME
 #define GLK_MODULE_RESOURCE_STREAM
 
 /* Define a macro for a function attribute that indicates a function that
