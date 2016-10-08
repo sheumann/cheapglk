@@ -33,7 +33,7 @@ typedef glui32 giblorb_err_t;
 /* Four-byte constants */
 
 #define giblorb_make_id(c1, c2, c3, c4)  \
-    (((c1) << 24) | ((c2) << 16) | ((c3) << 8) | (c4))
+    (((glui32)(c1) << 24) | ((glui32)(c2) << 16) | ((glui32)(c3) << 8) | (c4))
 
 #define giblorb_ID_Exec      (giblorb_make_id('E', 'x', 'e', 'c'))
 #define giblorb_ID_Snd       (giblorb_make_id('S', 'n', 'd', ' '))
