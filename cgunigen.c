@@ -3,7 +3,7 @@
 /* This does not get compiled into a cgunigen.o file; it's
  * #included in cgunicod.c. */
 
-static gli_case_block_t unigen_case_block_0x0[256] = {
+static gli_case_block_t ug_case_block_0x0[256] = {
     { 0x0, 0x0 },
     { 0x1, 0x1 },
     { 0x2, 0x2 },
@@ -262,7 +262,7 @@ static gli_case_block_t unigen_case_block_0x0[256] = {
     { 0x178, 0xff },  /* lower */
 };
 
-static gli_case_block_t unigen_case_block_0x1[256] = {
+static gli_case_block_t ug_case_block_0x1[256] = {
     { 0x100, 0x101 },  /* upper */
     { 0x100, 0x101 },  /* lower */
     { 0x102, 0x103 },  /* upper */
@@ -521,7 +521,7 @@ static gli_case_block_t unigen_case_block_0x1[256] = {
     { 0x1fe, 0x1ff },  /* lower */
 };
 
-static gli_case_block_t unigen_case_block_0x2[256] = {
+static gli_case_block_t ug_case_block_0x2[256] = {
     { 0x200, 0x201 },  /* upper */
     { 0x200, 0x201 },  /* lower */
     { 0x202, 0x203 },  /* upper */
@@ -780,7 +780,7 @@ static gli_case_block_t unigen_case_block_0x2[256] = {
     { 0x2ff, 0x2ff },
 };
 
-static gli_case_block_t unigen_case_block_0x3[256] = {
+static gli_case_block_t ug_case_block_0x3[256] = {
     { 0x300, 0x300 },
     { 0x301, 0x301 },
     { 0x302, 0x302 },
@@ -1039,7 +1039,7 @@ static gli_case_block_t unigen_case_block_0x3[256] = {
     { 0x3ff, 0x3ff },
 };
 
-static gli_case_block_t unigen_case_block_0x4[256] = {
+static gli_case_block_t ug_case_block_0x4[256] = {
     { 0x400, 0x450 },  /* upper */
     { 0x401, 0x451 },  /* upper */
     { 0x402, 0x452 },  /* upper */
@@ -1298,7 +1298,7 @@ static gli_case_block_t unigen_case_block_0x4[256] = {
     { 0x4ff, 0x4ff },
 };
 
-static gli_case_block_t unigen_case_block_0x5[256] = {
+static gli_case_block_t ug_case_block_0x5[256] = {
     { 0x500, 0x501 },  /* upper */
     { 0x500, 0x501 },  /* lower */
     { 0x502, 0x503 },  /* upper */
@@ -1557,7 +1557,7 @@ static gli_case_block_t unigen_case_block_0x5[256] = {
     { 0x5ff, 0x5ff },
 };
 
-static gli_case_block_t unigen_case_block_0x1e[256] = {
+static gli_case_block_t ug_case_block_0x1e[256] = {
     { 0x1e00, 0x1e01 },  /* upper */
     { 0x1e00, 0x1e01 },  /* lower */
     { 0x1e02, 0x1e03 },  /* upper */
@@ -1816,7 +1816,7 @@ static gli_case_block_t unigen_case_block_0x1e[256] = {
     { 0x1eff, 0x1eff },
 };
 
-static gli_case_block_t unigen_case_block_0x1f[256] = {
+static gli_case_block_t ug_case_block_0x1f[256] = {
     { 0x1f08, 0x1f00 },  /* lower */
     { 0x1f09, 0x1f01 },  /* lower */
     { 0x1f0a, 0x1f02 },  /* lower */
@@ -2075,7 +2075,7 @@ static gli_case_block_t unigen_case_block_0x1f[256] = {
     { 0x1fff, 0x1fff },
 };
 
-static gli_case_block_t unigen_case_block_0x21[256] = {
+static gli_case_block_t ug_case_block_0x21[256] = {
     { 0x2100, 0x2100 },
     { 0x2101, 0x2101 },
     { 0x2102, 0x2102 },
@@ -2334,7 +2334,7 @@ static gli_case_block_t unigen_case_block_0x21[256] = {
     { 0x21ff, 0x21ff },
 };
 
-static gli_case_block_t unigen_case_block_0x24[256] = {
+static gli_case_block_t ug_case_block_0x24[256] = {
     { 0x2400, 0x2400 },
     { 0x2401, 0x2401 },
     { 0x2402, 0x2402 },
@@ -2593,7 +2593,7 @@ static gli_case_block_t unigen_case_block_0x24[256] = {
     { 0x24ff, 0x24ff },
 };
 
-static gli_case_block_t unigen_case_block_0xfb[256] = {
+static gli_case_block_t ug_case_block_0xfb[256] = {
     { 0xFFFFFFFF, 0xFFFFFFFF },
     { 0xFFFFFFFF, 0xFFFFFFFF },
     { 0xFFFFFFFF, 0xFFFFFFFF },
@@ -2852,7 +2852,7 @@ static gli_case_block_t unigen_case_block_0xfb[256] = {
     { 0xfbff, 0xfbff },
 };
 
-static gli_case_block_t unigen_case_block_0xff[256] = {
+static gli_case_block_t ug_case_block_0xff[256] = {
     { 0xff00, 0xff00 },
     { 0xff01, 0xff01 },
     { 0xff02, 0xff02 },
@@ -3111,7 +3111,7 @@ static gli_case_block_t unigen_case_block_0xff[256] = {
     { 0xffff, 0xffff },
 };
 
-static gli_case_block_t unigen_case_block_0x104[256] = {
+static gli_case_block_t ug_case_block_0x104[256] = {
     { 0x10400, 0x10428 },  /* upper */
     { 0x10401, 0x10429 },  /* upper */
     { 0x10402, 0x1042a },  /* upper */
@@ -3373,43 +3373,43 @@ static gli_case_block_t unigen_case_block_0x104[256] = {
 #define GET_CASE_BLOCK(ch, blockptr)  \
 switch ((glui32)(ch) >> 8) {  \
     case 0x0:  \
-        *blockptr = unigen_case_block_0x0;  \
+        *blockptr = ug_case_block_0x0;  \
         break;  \
     case 0x1:  \
-        *blockptr = unigen_case_block_0x1;  \
+        *blockptr = ug_case_block_0x1;  \
         break;  \
     case 0x2:  \
-        *blockptr = unigen_case_block_0x2;  \
+        *blockptr = ug_case_block_0x2;  \
         break;  \
     case 0x3:  \
-        *blockptr = unigen_case_block_0x3;  \
+        *blockptr = ug_case_block_0x3;  \
         break;  \
     case 0x4:  \
-        *blockptr = unigen_case_block_0x4;  \
+        *blockptr = ug_case_block_0x4;  \
         break;  \
     case 0x5:  \
-        *blockptr = unigen_case_block_0x5;  \
+        *blockptr = ug_case_block_0x5;  \
         break;  \
     case 0x1e:  \
-        *blockptr = unigen_case_block_0x1e;  \
+        *blockptr = ug_case_block_0x1e;  \
         break;  \
     case 0x1f:  \
-        *blockptr = unigen_case_block_0x1f;  \
+        *blockptr = ug_case_block_0x1f;  \
         break;  \
     case 0x21:  \
-        *blockptr = unigen_case_block_0x21;  \
+        *blockptr = ug_case_block_0x21;  \
         break;  \
     case 0x24:  \
-        *blockptr = unigen_case_block_0x24;  \
+        *blockptr = ug_case_block_0x24;  \
         break;  \
     case 0xfb:  \
-        *blockptr = unigen_case_block_0xfb;  \
+        *blockptr = ug_case_block_0xfb;  \
         break;  \
     case 0xff:  \
-        *blockptr = unigen_case_block_0xff;  \
+        *blockptr = ug_case_block_0xff;  \
         break;  \
     case 0x104:  \
-        *blockptr = unigen_case_block_0x104;  \
+        *blockptr = ug_case_block_0x104;  \
         break;  \
     default:  \
         *blockptr = NULL;  \
@@ -3762,469 +3762,469 @@ static glui16 unigen_special_array[] = {
     2, 0x544, 0x56d,  /* 0xfb17 titlecase */
 };
 
-static gli_case_special_t unigen_special_0xdf = { 0, 3, 5 };
-static gli_case_special_t unigen_special_0x130 = { 8, 10, 13 };
-static gli_case_special_t unigen_special_0x149 = { 15, 18, 20 };
-static gli_case_special_t unigen_special_0x1c4 = { 23, 25, 27 };
-static gli_case_special_t unigen_special_0x1c5 = { 29, 31, 33 };
-static gli_case_special_t unigen_special_0x1c6 = { 35, 37, 39 };
-static gli_case_special_t unigen_special_0x1c7 = { 41, 43, 45 };
-static gli_case_special_t unigen_special_0x1c8 = { 47, 49, 51 };
-static gli_case_special_t unigen_special_0x1c9 = { 53, 55, 57 };
-static gli_case_special_t unigen_special_0x1ca = { 59, 61, 63 };
-static gli_case_special_t unigen_special_0x1cb = { 65, 67, 69 };
-static gli_case_special_t unigen_special_0x1cc = { 71, 73, 75 };
-static gli_case_special_t unigen_special_0x1f0 = { 77, 80, 82 };
-static gli_case_special_t unigen_special_0x1f1 = { 85, 87, 89 };
-static gli_case_special_t unigen_special_0x1f2 = { 91, 93, 95 };
-static gli_case_special_t unigen_special_0x1f3 = { 97, 99, 101 };
-static gli_case_special_t unigen_special_0x390 = { 103, 107, 109 };
-static gli_case_special_t unigen_special_0x3b0 = { 113, 117, 119 };
-static gli_case_special_t unigen_special_0x587 = { 123, 126, 128 };
-static gli_case_special_t unigen_special_0x1e96 = { 131, 134, 136 };
-static gli_case_special_t unigen_special_0x1e97 = { 139, 142, 144 };
-static gli_case_special_t unigen_special_0x1e98 = { 147, 150, 152 };
-static gli_case_special_t unigen_special_0x1e99 = { 155, 158, 160 };
-static gli_case_special_t unigen_special_0x1e9a = { 163, 166, 168 };
-static gli_case_special_t unigen_special_0x1f50 = { 171, 174, 176 };
-static gli_case_special_t unigen_special_0x1f52 = { 179, 183, 185 };
-static gli_case_special_t unigen_special_0x1f54 = { 189, 193, 195 };
-static gli_case_special_t unigen_special_0x1f56 = { 199, 203, 205 };
-static gli_case_special_t unigen_special_0x1f80 = { 209, 212, 214 };
-static gli_case_special_t unigen_special_0x1f81 = { 216, 219, 221 };
-static gli_case_special_t unigen_special_0x1f82 = { 223, 226, 228 };
-static gli_case_special_t unigen_special_0x1f83 = { 230, 233, 235 };
-static gli_case_special_t unigen_special_0x1f84 = { 237, 240, 242 };
-static gli_case_special_t unigen_special_0x1f85 = { 244, 247, 249 };
-static gli_case_special_t unigen_special_0x1f86 = { 251, 254, 256 };
-static gli_case_special_t unigen_special_0x1f87 = { 258, 261, 263 };
-static gli_case_special_t unigen_special_0x1f88 = { 265, 268, 270 };
-static gli_case_special_t unigen_special_0x1f89 = { 272, 275, 277 };
-static gli_case_special_t unigen_special_0x1f8a = { 279, 282, 284 };
-static gli_case_special_t unigen_special_0x1f8b = { 286, 289, 291 };
-static gli_case_special_t unigen_special_0x1f8c = { 293, 296, 298 };
-static gli_case_special_t unigen_special_0x1f8d = { 300, 303, 305 };
-static gli_case_special_t unigen_special_0x1f8e = { 307, 310, 312 };
-static gli_case_special_t unigen_special_0x1f8f = { 314, 317, 319 };
-static gli_case_special_t unigen_special_0x1f90 = { 321, 324, 326 };
-static gli_case_special_t unigen_special_0x1f91 = { 328, 331, 333 };
-static gli_case_special_t unigen_special_0x1f92 = { 335, 338, 340 };
-static gli_case_special_t unigen_special_0x1f93 = { 342, 345, 347 };
-static gli_case_special_t unigen_special_0x1f94 = { 349, 352, 354 };
-static gli_case_special_t unigen_special_0x1f95 = { 356, 359, 361 };
-static gli_case_special_t unigen_special_0x1f96 = { 363, 366, 368 };
-static gli_case_special_t unigen_special_0x1f97 = { 370, 373, 375 };
-static gli_case_special_t unigen_special_0x1f98 = { 377, 380, 382 };
-static gli_case_special_t unigen_special_0x1f99 = { 384, 387, 389 };
-static gli_case_special_t unigen_special_0x1f9a = { 391, 394, 396 };
-static gli_case_special_t unigen_special_0x1f9b = { 398, 401, 403 };
-static gli_case_special_t unigen_special_0x1f9c = { 405, 408, 410 };
-static gli_case_special_t unigen_special_0x1f9d = { 412, 415, 417 };
-static gli_case_special_t unigen_special_0x1f9e = { 419, 422, 424 };
-static gli_case_special_t unigen_special_0x1f9f = { 426, 429, 431 };
-static gli_case_special_t unigen_special_0x1fa0 = { 433, 436, 438 };
-static gli_case_special_t unigen_special_0x1fa1 = { 440, 443, 445 };
-static gli_case_special_t unigen_special_0x1fa2 = { 447, 450, 452 };
-static gli_case_special_t unigen_special_0x1fa3 = { 454, 457, 459 };
-static gli_case_special_t unigen_special_0x1fa4 = { 461, 464, 466 };
-static gli_case_special_t unigen_special_0x1fa5 = { 468, 471, 473 };
-static gli_case_special_t unigen_special_0x1fa6 = { 475, 478, 480 };
-static gli_case_special_t unigen_special_0x1fa7 = { 482, 485, 487 };
-static gli_case_special_t unigen_special_0x1fa8 = { 489, 492, 494 };
-static gli_case_special_t unigen_special_0x1fa9 = { 496, 499, 501 };
-static gli_case_special_t unigen_special_0x1faa = { 503, 506, 508 };
-static gli_case_special_t unigen_special_0x1fab = { 510, 513, 515 };
-static gli_case_special_t unigen_special_0x1fac = { 517, 520, 522 };
-static gli_case_special_t unigen_special_0x1fad = { 524, 527, 529 };
-static gli_case_special_t unigen_special_0x1fae = { 531, 534, 536 };
-static gli_case_special_t unigen_special_0x1faf = { 538, 541, 543 };
-static gli_case_special_t unigen_special_0x1fb2 = { 545, 548, 550 };
-static gli_case_special_t unigen_special_0x1fb3 = { 553, 556, 558 };
-static gli_case_special_t unigen_special_0x1fb4 = { 560, 563, 565 };
-static gli_case_special_t unigen_special_0x1fb6 = { 568, 571, 573 };
-static gli_case_special_t unigen_special_0x1fb7 = { 576, 580, 582 };
-static gli_case_special_t unigen_special_0x1fbc = { 586, 589, 591 };
-static gli_case_special_t unigen_special_0x1fc2 = { 593, 596, 598 };
-static gli_case_special_t unigen_special_0x1fc3 = { 601, 604, 606 };
-static gli_case_special_t unigen_special_0x1fc4 = { 608, 611, 613 };
-static gli_case_special_t unigen_special_0x1fc6 = { 616, 619, 621 };
-static gli_case_special_t unigen_special_0x1fc7 = { 624, 628, 630 };
-static gli_case_special_t unigen_special_0x1fcc = { 634, 637, 639 };
-static gli_case_special_t unigen_special_0x1fd2 = { 641, 645, 647 };
-static gli_case_special_t unigen_special_0x1fd3 = { 651, 655, 657 };
-static gli_case_special_t unigen_special_0x1fd6 = { 661, 664, 666 };
-static gli_case_special_t unigen_special_0x1fd7 = { 669, 673, 675 };
-static gli_case_special_t unigen_special_0x1fe2 = { 679, 683, 685 };
-static gli_case_special_t unigen_special_0x1fe3 = { 689, 693, 695 };
-static gli_case_special_t unigen_special_0x1fe4 = { 699, 702, 704 };
-static gli_case_special_t unigen_special_0x1fe6 = { 707, 710, 712 };
-static gli_case_special_t unigen_special_0x1fe7 = { 715, 719, 721 };
-static gli_case_special_t unigen_special_0x1ff2 = { 725, 728, 730 };
-static gli_case_special_t unigen_special_0x1ff3 = { 733, 736, 738 };
-static gli_case_special_t unigen_special_0x1ff4 = { 740, 743, 745 };
-static gli_case_special_t unigen_special_0x1ff6 = { 748, 751, 753 };
-static gli_case_special_t unigen_special_0x1ff7 = { 756, 760, 762 };
-static gli_case_special_t unigen_special_0x1ffc = { 766, 769, 771 };
-static gli_case_special_t unigen_special_0xfb00 = { 773, 776, 778 };
-static gli_case_special_t unigen_special_0xfb01 = { 781, 784, 786 };
-static gli_case_special_t unigen_special_0xfb02 = { 789, 792, 794 };
-static gli_case_special_t unigen_special_0xfb03 = { 797, 801, 803 };
-static gli_case_special_t unigen_special_0xfb04 = { 807, 811, 813 };
-static gli_case_special_t unigen_special_0xfb05 = { 817, 820, 822 };
-static gli_case_special_t unigen_special_0xfb06 = { 825, 828, 830 };
-static gli_case_special_t unigen_special_0xfb13 = { 833, 836, 838 };
-static gli_case_special_t unigen_special_0xfb14 = { 841, 844, 846 };
-static gli_case_special_t unigen_special_0xfb15 = { 849, 852, 854 };
-static gli_case_special_t unigen_special_0xfb16 = { 857, 860, 862 };
-static gli_case_special_t unigen_special_0xfb17 = { 865, 868, 870 };
+static gli_case_special_t ug_special_0xdf = { 0, 3, 5 };
+static gli_case_special_t ug_special_0x130 = { 8, 10, 13 };
+static gli_case_special_t ug_special_0x149 = { 15, 18, 20 };
+static gli_case_special_t ug_special_0x1c4 = { 23, 25, 27 };
+static gli_case_special_t ug_special_0x1c5 = { 29, 31, 33 };
+static gli_case_special_t ug_special_0x1c6 = { 35, 37, 39 };
+static gli_case_special_t ug_special_0x1c7 = { 41, 43, 45 };
+static gli_case_special_t ug_special_0x1c8 = { 47, 49, 51 };
+static gli_case_special_t ug_special_0x1c9 = { 53, 55, 57 };
+static gli_case_special_t ug_special_0x1ca = { 59, 61, 63 };
+static gli_case_special_t ug_special_0x1cb = { 65, 67, 69 };
+static gli_case_special_t ug_special_0x1cc = { 71, 73, 75 };
+static gli_case_special_t ug_special_0x1f0 = { 77, 80, 82 };
+static gli_case_special_t ug_special_0x1f1 = { 85, 87, 89 };
+static gli_case_special_t ug_special_0x1f2 = { 91, 93, 95 };
+static gli_case_special_t ug_special_0x1f3 = { 97, 99, 101 };
+static gli_case_special_t ug_special_0x390 = { 103, 107, 109 };
+static gli_case_special_t ug_special_0x3b0 = { 113, 117, 119 };
+static gli_case_special_t ug_special_0x587 = { 123, 126, 128 };
+static gli_case_special_t ug_special_0x1e96 = { 131, 134, 136 };
+static gli_case_special_t ug_special_0x1e97 = { 139, 142, 144 };
+static gli_case_special_t ug_special_0x1e98 = { 147, 150, 152 };
+static gli_case_special_t ug_special_0x1e99 = { 155, 158, 160 };
+static gli_case_special_t ug_special_0x1e9a = { 163, 166, 168 };
+static gli_case_special_t ug_special_0x1f50 = { 171, 174, 176 };
+static gli_case_special_t ug_special_0x1f52 = { 179, 183, 185 };
+static gli_case_special_t ug_special_0x1f54 = { 189, 193, 195 };
+static gli_case_special_t ug_special_0x1f56 = { 199, 203, 205 };
+static gli_case_special_t ug_special_0x1f80 = { 209, 212, 214 };
+static gli_case_special_t ug_special_0x1f81 = { 216, 219, 221 };
+static gli_case_special_t ug_special_0x1f82 = { 223, 226, 228 };
+static gli_case_special_t ug_special_0x1f83 = { 230, 233, 235 };
+static gli_case_special_t ug_special_0x1f84 = { 237, 240, 242 };
+static gli_case_special_t ug_special_0x1f85 = { 244, 247, 249 };
+static gli_case_special_t ug_special_0x1f86 = { 251, 254, 256 };
+static gli_case_special_t ug_special_0x1f87 = { 258, 261, 263 };
+static gli_case_special_t ug_special_0x1f88 = { 265, 268, 270 };
+static gli_case_special_t ug_special_0x1f89 = { 272, 275, 277 };
+static gli_case_special_t ug_special_0x1f8a = { 279, 282, 284 };
+static gli_case_special_t ug_special_0x1f8b = { 286, 289, 291 };
+static gli_case_special_t ug_special_0x1f8c = { 293, 296, 298 };
+static gli_case_special_t ug_special_0x1f8d = { 300, 303, 305 };
+static gli_case_special_t ug_special_0x1f8e = { 307, 310, 312 };
+static gli_case_special_t ug_special_0x1f8f = { 314, 317, 319 };
+static gli_case_special_t ug_special_0x1f90 = { 321, 324, 326 };
+static gli_case_special_t ug_special_0x1f91 = { 328, 331, 333 };
+static gli_case_special_t ug_special_0x1f92 = { 335, 338, 340 };
+static gli_case_special_t ug_special_0x1f93 = { 342, 345, 347 };
+static gli_case_special_t ug_special_0x1f94 = { 349, 352, 354 };
+static gli_case_special_t ug_special_0x1f95 = { 356, 359, 361 };
+static gli_case_special_t ug_special_0x1f96 = { 363, 366, 368 };
+static gli_case_special_t ug_special_0x1f97 = { 370, 373, 375 };
+static gli_case_special_t ug_special_0x1f98 = { 377, 380, 382 };
+static gli_case_special_t ug_special_0x1f99 = { 384, 387, 389 };
+static gli_case_special_t ug_special_0x1f9a = { 391, 394, 396 };
+static gli_case_special_t ug_special_0x1f9b = { 398, 401, 403 };
+static gli_case_special_t ug_special_0x1f9c = { 405, 408, 410 };
+static gli_case_special_t ug_special_0x1f9d = { 412, 415, 417 };
+static gli_case_special_t ug_special_0x1f9e = { 419, 422, 424 };
+static gli_case_special_t ug_special_0x1f9f = { 426, 429, 431 };
+static gli_case_special_t ug_special_0x1fa0 = { 433, 436, 438 };
+static gli_case_special_t ug_special_0x1fa1 = { 440, 443, 445 };
+static gli_case_special_t ug_special_0x1fa2 = { 447, 450, 452 };
+static gli_case_special_t ug_special_0x1fa3 = { 454, 457, 459 };
+static gli_case_special_t ug_special_0x1fa4 = { 461, 464, 466 };
+static gli_case_special_t ug_special_0x1fa5 = { 468, 471, 473 };
+static gli_case_special_t ug_special_0x1fa6 = { 475, 478, 480 };
+static gli_case_special_t ug_special_0x1fa7 = { 482, 485, 487 };
+static gli_case_special_t ug_special_0x1fa8 = { 489, 492, 494 };
+static gli_case_special_t ug_special_0x1fa9 = { 496, 499, 501 };
+static gli_case_special_t ug_special_0x1faa = { 503, 506, 508 };
+static gli_case_special_t ug_special_0x1fab = { 510, 513, 515 };
+static gli_case_special_t ug_special_0x1fac = { 517, 520, 522 };
+static gli_case_special_t ug_special_0x1fad = { 524, 527, 529 };
+static gli_case_special_t ug_special_0x1fae = { 531, 534, 536 };
+static gli_case_special_t ug_special_0x1faf = { 538, 541, 543 };
+static gli_case_special_t ug_special_0x1fb2 = { 545, 548, 550 };
+static gli_case_special_t ug_special_0x1fb3 = { 553, 556, 558 };
+static gli_case_special_t ug_special_0x1fb4 = { 560, 563, 565 };
+static gli_case_special_t ug_special_0x1fb6 = { 568, 571, 573 };
+static gli_case_special_t ug_special_0x1fb7 = { 576, 580, 582 };
+static gli_case_special_t ug_special_0x1fbc = { 586, 589, 591 };
+static gli_case_special_t ug_special_0x1fc2 = { 593, 596, 598 };
+static gli_case_special_t ug_special_0x1fc3 = { 601, 604, 606 };
+static gli_case_special_t ug_special_0x1fc4 = { 608, 611, 613 };
+static gli_case_special_t ug_special_0x1fc6 = { 616, 619, 621 };
+static gli_case_special_t ug_special_0x1fc7 = { 624, 628, 630 };
+static gli_case_special_t ug_special_0x1fcc = { 634, 637, 639 };
+static gli_case_special_t ug_special_0x1fd2 = { 641, 645, 647 };
+static gli_case_special_t ug_special_0x1fd3 = { 651, 655, 657 };
+static gli_case_special_t ug_special_0x1fd6 = { 661, 664, 666 };
+static gli_case_special_t ug_special_0x1fd7 = { 669, 673, 675 };
+static gli_case_special_t ug_special_0x1fe2 = { 679, 683, 685 };
+static gli_case_special_t ug_special_0x1fe3 = { 689, 693, 695 };
+static gli_case_special_t ug_special_0x1fe4 = { 699, 702, 704 };
+static gli_case_special_t ug_special_0x1fe6 = { 707, 710, 712 };
+static gli_case_special_t ug_special_0x1fe7 = { 715, 719, 721 };
+static gli_case_special_t ug_special_0x1ff2 = { 725, 728, 730 };
+static gli_case_special_t ug_special_0x1ff3 = { 733, 736, 738 };
+static gli_case_special_t ug_special_0x1ff4 = { 740, 743, 745 };
+static gli_case_special_t ug_special_0x1ff6 = { 748, 751, 753 };
+static gli_case_special_t ug_special_0x1ff7 = { 756, 760, 762 };
+static gli_case_special_t ug_special_0x1ffc = { 766, 769, 771 };
+static gli_case_special_t ug_special_0xfb00 = { 773, 776, 778 };
+static gli_case_special_t ug_special_0xfb01 = { 781, 784, 786 };
+static gli_case_special_t ug_special_0xfb02 = { 789, 792, 794 };
+static gli_case_special_t ug_special_0xfb03 = { 797, 801, 803 };
+static gli_case_special_t ug_special_0xfb04 = { 807, 811, 813 };
+static gli_case_special_t ug_special_0xfb05 = { 817, 820, 822 };
+static gli_case_special_t ug_special_0xfb06 = { 825, 828, 830 };
+static gli_case_special_t ug_special_0xfb13 = { 833, 836, 838 };
+static gli_case_special_t ug_special_0xfb14 = { 841, 844, 846 };
+static gli_case_special_t ug_special_0xfb15 = { 849, 852, 854 };
+static gli_case_special_t ug_special_0xfb16 = { 857, 860, 862 };
+static gli_case_special_t ug_special_0xfb17 = { 865, 868, 870 };
 
 #define GET_CASE_SPECIAL(ch, specptr) {  \
 if (ch != (glui16)ch)  goto no_match;  \
 switch ((glui16)ch) {  \
     case 0xdf:  \
-        *specptr = unigen_special_0xdf;  \
+        *specptr = ug_special_0xdf;  \
         break;  \
     case 0x130:  \
-        *specptr = unigen_special_0x130;  \
+        *specptr = ug_special_0x130;  \
         break;  \
     case 0x149:  \
-        *specptr = unigen_special_0x149;  \
+        *specptr = ug_special_0x149;  \
         break;  \
     case 0x1c4:  \
-        *specptr = unigen_special_0x1c4;  \
+        *specptr = ug_special_0x1c4;  \
         break;  \
     case 0x1c5:  \
-        *specptr = unigen_special_0x1c5;  \
+        *specptr = ug_special_0x1c5;  \
         break;  \
     case 0x1c6:  \
-        *specptr = unigen_special_0x1c6;  \
+        *specptr = ug_special_0x1c6;  \
         break;  \
     case 0x1c7:  \
-        *specptr = unigen_special_0x1c7;  \
+        *specptr = ug_special_0x1c7;  \
         break;  \
     case 0x1c8:  \
-        *specptr = unigen_special_0x1c8;  \
+        *specptr = ug_special_0x1c8;  \
         break;  \
     case 0x1c9:  \
-        *specptr = unigen_special_0x1c9;  \
+        *specptr = ug_special_0x1c9;  \
         break;  \
     case 0x1ca:  \
-        *specptr = unigen_special_0x1ca;  \
+        *specptr = ug_special_0x1ca;  \
         break;  \
     case 0x1cb:  \
-        *specptr = unigen_special_0x1cb;  \
+        *specptr = ug_special_0x1cb;  \
         break;  \
     case 0x1cc:  \
-        *specptr = unigen_special_0x1cc;  \
+        *specptr = ug_special_0x1cc;  \
         break;  \
     case 0x1f0:  \
-        *specptr = unigen_special_0x1f0;  \
+        *specptr = ug_special_0x1f0;  \
         break;  \
     case 0x1f1:  \
-        *specptr = unigen_special_0x1f1;  \
+        *specptr = ug_special_0x1f1;  \
         break;  \
     case 0x1f2:  \
-        *specptr = unigen_special_0x1f2;  \
+        *specptr = ug_special_0x1f2;  \
         break;  \
     case 0x1f3:  \
-        *specptr = unigen_special_0x1f3;  \
+        *specptr = ug_special_0x1f3;  \
         break;  \
     case 0x390:  \
-        *specptr = unigen_special_0x390;  \
+        *specptr = ug_special_0x390;  \
         break;  \
     case 0x3b0:  \
-        *specptr = unigen_special_0x3b0;  \
+        *specptr = ug_special_0x3b0;  \
         break;  \
     case 0x587:  \
-        *specptr = unigen_special_0x587;  \
+        *specptr = ug_special_0x587;  \
         break;  \
     case 0x1e96:  \
-        *specptr = unigen_special_0x1e96;  \
+        *specptr = ug_special_0x1e96;  \
         break;  \
     case 0x1e97:  \
-        *specptr = unigen_special_0x1e97;  \
+        *specptr = ug_special_0x1e97;  \
         break;  \
     case 0x1e98:  \
-        *specptr = unigen_special_0x1e98;  \
+        *specptr = ug_special_0x1e98;  \
         break;  \
     case 0x1e99:  \
-        *specptr = unigen_special_0x1e99;  \
+        *specptr = ug_special_0x1e99;  \
         break;  \
     case 0x1e9a:  \
-        *specptr = unigen_special_0x1e9a;  \
+        *specptr = ug_special_0x1e9a;  \
         break;  \
     case 0x1f50:  \
-        *specptr = unigen_special_0x1f50;  \
+        *specptr = ug_special_0x1f50;  \
         break;  \
     case 0x1f52:  \
-        *specptr = unigen_special_0x1f52;  \
+        *specptr = ug_special_0x1f52;  \
         break;  \
     case 0x1f54:  \
-        *specptr = unigen_special_0x1f54;  \
+        *specptr = ug_special_0x1f54;  \
         break;  \
     case 0x1f56:  \
-        *specptr = unigen_special_0x1f56;  \
+        *specptr = ug_special_0x1f56;  \
         break;  \
     case 0x1f80:  \
-        *specptr = unigen_special_0x1f80;  \
+        *specptr = ug_special_0x1f80;  \
         break;  \
     case 0x1f81:  \
-        *specptr = unigen_special_0x1f81;  \
+        *specptr = ug_special_0x1f81;  \
         break;  \
     case 0x1f82:  \
-        *specptr = unigen_special_0x1f82;  \
+        *specptr = ug_special_0x1f82;  \
         break;  \
     case 0x1f83:  \
-        *specptr = unigen_special_0x1f83;  \
+        *specptr = ug_special_0x1f83;  \
         break;  \
     case 0x1f84:  \
-        *specptr = unigen_special_0x1f84;  \
+        *specptr = ug_special_0x1f84;  \
         break;  \
     case 0x1f85:  \
-        *specptr = unigen_special_0x1f85;  \
+        *specptr = ug_special_0x1f85;  \
         break;  \
     case 0x1f86:  \
-        *specptr = unigen_special_0x1f86;  \
+        *specptr = ug_special_0x1f86;  \
         break;  \
     case 0x1f87:  \
-        *specptr = unigen_special_0x1f87;  \
+        *specptr = ug_special_0x1f87;  \
         break;  \
     case 0x1f88:  \
-        *specptr = unigen_special_0x1f88;  \
+        *specptr = ug_special_0x1f88;  \
         break;  \
     case 0x1f89:  \
-        *specptr = unigen_special_0x1f89;  \
+        *specptr = ug_special_0x1f89;  \
         break;  \
     case 0x1f8a:  \
-        *specptr = unigen_special_0x1f8a;  \
+        *specptr = ug_special_0x1f8a;  \
         break;  \
     case 0x1f8b:  \
-        *specptr = unigen_special_0x1f8b;  \
+        *specptr = ug_special_0x1f8b;  \
         break;  \
     case 0x1f8c:  \
-        *specptr = unigen_special_0x1f8c;  \
+        *specptr = ug_special_0x1f8c;  \
         break;  \
     case 0x1f8d:  \
-        *specptr = unigen_special_0x1f8d;  \
+        *specptr = ug_special_0x1f8d;  \
         break;  \
     case 0x1f8e:  \
-        *specptr = unigen_special_0x1f8e;  \
+        *specptr = ug_special_0x1f8e;  \
         break;  \
     case 0x1f8f:  \
-        *specptr = unigen_special_0x1f8f;  \
+        *specptr = ug_special_0x1f8f;  \
         break;  \
     case 0x1f90:  \
-        *specptr = unigen_special_0x1f90;  \
+        *specptr = ug_special_0x1f90;  \
         break;  \
     case 0x1f91:  \
-        *specptr = unigen_special_0x1f91;  \
+        *specptr = ug_special_0x1f91;  \
         break;  \
     case 0x1f92:  \
-        *specptr = unigen_special_0x1f92;  \
+        *specptr = ug_special_0x1f92;  \
         break;  \
     case 0x1f93:  \
-        *specptr = unigen_special_0x1f93;  \
+        *specptr = ug_special_0x1f93;  \
         break;  \
     case 0x1f94:  \
-        *specptr = unigen_special_0x1f94;  \
+        *specptr = ug_special_0x1f94;  \
         break;  \
     case 0x1f95:  \
-        *specptr = unigen_special_0x1f95;  \
+        *specptr = ug_special_0x1f95;  \
         break;  \
     case 0x1f96:  \
-        *specptr = unigen_special_0x1f96;  \
+        *specptr = ug_special_0x1f96;  \
         break;  \
     case 0x1f97:  \
-        *specptr = unigen_special_0x1f97;  \
+        *specptr = ug_special_0x1f97;  \
         break;  \
     case 0x1f98:  \
-        *specptr = unigen_special_0x1f98;  \
+        *specptr = ug_special_0x1f98;  \
         break;  \
     case 0x1f99:  \
-        *specptr = unigen_special_0x1f99;  \
+        *specptr = ug_special_0x1f99;  \
         break;  \
     case 0x1f9a:  \
-        *specptr = unigen_special_0x1f9a;  \
+        *specptr = ug_special_0x1f9a;  \
         break;  \
     case 0x1f9b:  \
-        *specptr = unigen_special_0x1f9b;  \
+        *specptr = ug_special_0x1f9b;  \
         break;  \
     case 0x1f9c:  \
-        *specptr = unigen_special_0x1f9c;  \
+        *specptr = ug_special_0x1f9c;  \
         break;  \
     case 0x1f9d:  \
-        *specptr = unigen_special_0x1f9d;  \
+        *specptr = ug_special_0x1f9d;  \
         break;  \
     case 0x1f9e:  \
-        *specptr = unigen_special_0x1f9e;  \
+        *specptr = ug_special_0x1f9e;  \
         break;  \
     case 0x1f9f:  \
-        *specptr = unigen_special_0x1f9f;  \
+        *specptr = ug_special_0x1f9f;  \
         break;  \
     case 0x1fa0:  \
-        *specptr = unigen_special_0x1fa0;  \
+        *specptr = ug_special_0x1fa0;  \
         break;  \
     case 0x1fa1:  \
-        *specptr = unigen_special_0x1fa1;  \
+        *specptr = ug_special_0x1fa1;  \
         break;  \
     case 0x1fa2:  \
-        *specptr = unigen_special_0x1fa2;  \
+        *specptr = ug_special_0x1fa2;  \
         break;  \
     case 0x1fa3:  \
-        *specptr = unigen_special_0x1fa3;  \
+        *specptr = ug_special_0x1fa3;  \
         break;  \
     case 0x1fa4:  \
-        *specptr = unigen_special_0x1fa4;  \
+        *specptr = ug_special_0x1fa4;  \
         break;  \
     case 0x1fa5:  \
-        *specptr = unigen_special_0x1fa5;  \
+        *specptr = ug_special_0x1fa5;  \
         break;  \
     case 0x1fa6:  \
-        *specptr = unigen_special_0x1fa6;  \
+        *specptr = ug_special_0x1fa6;  \
         break;  \
     case 0x1fa7:  \
-        *specptr = unigen_special_0x1fa7;  \
+        *specptr = ug_special_0x1fa7;  \
         break;  \
     case 0x1fa8:  \
-        *specptr = unigen_special_0x1fa8;  \
+        *specptr = ug_special_0x1fa8;  \
         break;  \
     case 0x1fa9:  \
-        *specptr = unigen_special_0x1fa9;  \
+        *specptr = ug_special_0x1fa9;  \
         break;  \
     case 0x1faa:  \
-        *specptr = unigen_special_0x1faa;  \
+        *specptr = ug_special_0x1faa;  \
         break;  \
     case 0x1fab:  \
-        *specptr = unigen_special_0x1fab;  \
+        *specptr = ug_special_0x1fab;  \
         break;  \
     case 0x1fac:  \
-        *specptr = unigen_special_0x1fac;  \
+        *specptr = ug_special_0x1fac;  \
         break;  \
     case 0x1fad:  \
-        *specptr = unigen_special_0x1fad;  \
+        *specptr = ug_special_0x1fad;  \
         break;  \
     case 0x1fae:  \
-        *specptr = unigen_special_0x1fae;  \
+        *specptr = ug_special_0x1fae;  \
         break;  \
     case 0x1faf:  \
-        *specptr = unigen_special_0x1faf;  \
+        *specptr = ug_special_0x1faf;  \
         break;  \
     case 0x1fb2:  \
-        *specptr = unigen_special_0x1fb2;  \
+        *specptr = ug_special_0x1fb2;  \
         break;  \
     case 0x1fb3:  \
-        *specptr = unigen_special_0x1fb3;  \
+        *specptr = ug_special_0x1fb3;  \
         break;  \
     case 0x1fb4:  \
-        *specptr = unigen_special_0x1fb4;  \
+        *specptr = ug_special_0x1fb4;  \
         break;  \
     case 0x1fb6:  \
-        *specptr = unigen_special_0x1fb6;  \
+        *specptr = ug_special_0x1fb6;  \
         break;  \
     case 0x1fb7:  \
-        *specptr = unigen_special_0x1fb7;  \
+        *specptr = ug_special_0x1fb7;  \
         break;  \
     case 0x1fbc:  \
-        *specptr = unigen_special_0x1fbc;  \
+        *specptr = ug_special_0x1fbc;  \
         break;  \
     case 0x1fc2:  \
-        *specptr = unigen_special_0x1fc2;  \
+        *specptr = ug_special_0x1fc2;  \
         break;  \
     case 0x1fc3:  \
-        *specptr = unigen_special_0x1fc3;  \
+        *specptr = ug_special_0x1fc3;  \
         break;  \
     case 0x1fc4:  \
-        *specptr = unigen_special_0x1fc4;  \
+        *specptr = ug_special_0x1fc4;  \
         break;  \
     case 0x1fc6:  \
-        *specptr = unigen_special_0x1fc6;  \
+        *specptr = ug_special_0x1fc6;  \
         break;  \
     case 0x1fc7:  \
-        *specptr = unigen_special_0x1fc7;  \
+        *specptr = ug_special_0x1fc7;  \
         break;  \
     case 0x1fcc:  \
-        *specptr = unigen_special_0x1fcc;  \
+        *specptr = ug_special_0x1fcc;  \
         break;  \
     case 0x1fd2:  \
-        *specptr = unigen_special_0x1fd2;  \
+        *specptr = ug_special_0x1fd2;  \
         break;  \
     case 0x1fd3:  \
-        *specptr = unigen_special_0x1fd3;  \
+        *specptr = ug_special_0x1fd3;  \
         break;  \
     case 0x1fd6:  \
-        *specptr = unigen_special_0x1fd6;  \
+        *specptr = ug_special_0x1fd6;  \
         break;  \
     case 0x1fd7:  \
-        *specptr = unigen_special_0x1fd7;  \
+        *specptr = ug_special_0x1fd7;  \
         break;  \
     case 0x1fe2:  \
-        *specptr = unigen_special_0x1fe2;  \
+        *specptr = ug_special_0x1fe2;  \
         break;  \
     case 0x1fe3:  \
-        *specptr = unigen_special_0x1fe3;  \
+        *specptr = ug_special_0x1fe3;  \
         break;  \
     case 0x1fe4:  \
-        *specptr = unigen_special_0x1fe4;  \
+        *specptr = ug_special_0x1fe4;  \
         break;  \
     case 0x1fe6:  \
-        *specptr = unigen_special_0x1fe6;  \
+        *specptr = ug_special_0x1fe6;  \
         break;  \
     case 0x1fe7:  \
-        *specptr = unigen_special_0x1fe7;  \
+        *specptr = ug_special_0x1fe7;  \
         break;  \
     case 0x1ff2:  \
-        *specptr = unigen_special_0x1ff2;  \
+        *specptr = ug_special_0x1ff2;  \
         break;  \
     case 0x1ff3:  \
-        *specptr = unigen_special_0x1ff3;  \
+        *specptr = ug_special_0x1ff3;  \
         break;  \
     case 0x1ff4:  \
-        *specptr = unigen_special_0x1ff4;  \
+        *specptr = ug_special_0x1ff4;  \
         break;  \
     case 0x1ff6:  \
-        *specptr = unigen_special_0x1ff6;  \
+        *specptr = ug_special_0x1ff6;  \
         break;  \
     case 0x1ff7:  \
-        *specptr = unigen_special_0x1ff7;  \
+        *specptr = ug_special_0x1ff7;  \
         break;  \
     case 0x1ffc:  \
-        *specptr = unigen_special_0x1ffc;  \
+        *specptr = ug_special_0x1ffc;  \
         break;  \
     case 0xfb00:  \
-        *specptr = unigen_special_0xfb00;  \
+        *specptr = ug_special_0xfb00;  \
         break;  \
     case 0xfb01:  \
-        *specptr = unigen_special_0xfb01;  \
+        *specptr = ug_special_0xfb01;  \
         break;  \
     case 0xfb02:  \
-        *specptr = unigen_special_0xfb02;  \
+        *specptr = ug_special_0xfb02;  \
         break;  \
     case 0xfb03:  \
-        *specptr = unigen_special_0xfb03;  \
+        *specptr = ug_special_0xfb03;  \
         break;  \
     case 0xfb04:  \
-        *specptr = unigen_special_0xfb04;  \
+        *specptr = ug_special_0xfb04;  \
         break;  \
     case 0xfb05:  \
-        *specptr = unigen_special_0xfb05;  \
+        *specptr = ug_special_0xfb05;  \
         break;  \
     case 0xfb06:  \
-        *specptr = unigen_special_0xfb06;  \
+        *specptr = ug_special_0xfb06;  \
         break;  \
     case 0xfb13:  \
-        *specptr = unigen_special_0xfb13;  \
+        *specptr = ug_special_0xfb13;  \
         break;  \
     case 0xfb14:  \
-        *specptr = unigen_special_0xfb14;  \
+        *specptr = ug_special_0xfb14;  \
         break;  \
     case 0xfb15:  \
-        *specptr = unigen_special_0xfb15;  \
+        *specptr = ug_special_0xfb15;  \
         break;  \
     case 0xfb16:  \
-        *specptr = unigen_special_0xfb16;  \
+        *specptr = ug_special_0xfb16;  \
         break;  \
     case 0xfb17:  \
-        *specptr = unigen_special_0xfb17;  \
+        *specptr = ug_special_0xfb17;  \
         break;  \
     default:  \
     no_match:  \
