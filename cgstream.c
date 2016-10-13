@@ -506,7 +506,7 @@ void glk_stream_set_current(stream_t *str)
     gli_stream_set_current(str);
 }
 
-strid_t glk_stream_get_current()
+strid_t glk_stream_get_current(void)
 {
     if (gli_currentstr)
         return gli_currentstr;

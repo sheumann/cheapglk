@@ -20,7 +20,7 @@ giblorb_err_t giblorb_set_resource_map(strid_t file)
   return giblorb_err_None;
 }
 
-giblorb_map_t *giblorb_get_resource_map()
+giblorb_map_t *giblorb_get_resource_map(void)
 {
   return blorbmap;
 }

@@ -111,12 +111,12 @@ void glk_window_close(window_t *win, stream_result_t *result)
     mainwin = NULL;
 }
 
-window_t *gli_window_get()
+window_t *gli_window_get(void)
 {
     return mainwin;
 }
 
-winid_t glk_window_get_root()
+winid_t glk_window_get_root(void)
 {
     /* If there's a window, it's the root window. */
     if (mainwin)

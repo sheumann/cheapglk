@@ -16,7 +16,7 @@
 #CC = gcc -ansi
 
 #OPTIONS = -g -Wall
-OPTIONS = -i -O -S cheapglk__
+OPTIONS = -i -w -O -S cheapglk__
 
 CFLAGS = $(OPTIONS) $(INCLUDEDIRS)
 

@@ -15,7 +15,7 @@ gidispatch_rock_t (*gli_register_arr)(void *array, glui32 len,
 void (*gli_unregister_arr)(void *array, glui32 len, char *typecode, 
     gidispatch_rock_t objrock) = NULL;
 
-void gli_initialize_misc()
+void gli_initialize_misc(void)
 {
     int ix;
     int res;
@@ -47,7 +47,7 @@ void gli_initialize_misc()
 
 }
 
-void glk_exit()
+void glk_exit(void)
 {
     exit(0);
 }
@@ -216,7 +216,7 @@ void glk_select_poll(event_t *event)
         support any, so I guess this is a pretty simple function. */
 }
 
-void glk_tick()
+void glk_tick(void)
 {
     /* Do nothing. */
 }
