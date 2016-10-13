@@ -16,7 +16,7 @@
 #CC = gcc -ansi
 
 #OPTIONS = -g -Wall
-OPTIONS = -O -S cheapglk__
+OPTIONS = -i -O -S cheapglk__
 
 CFLAGS = $(OPTIONS) $(INCLUDEDIRS)
 
@@ -37,8 +37,8 @@ $(GLKLIB): $(CHEAPGLK_OBJS)
 	makelib -P $(GLKLIB) +$(CHEAPGLK_OBJS:t" +")
 
 Make.cheapglk:
-	echo LINKLIBS = $(LIBDIRS) $(LIBS) > Make.cheapglk
-	echo GLKLIB = -l$(GLKLIB) >> Make.cheapglk
+	/bin/echo LINKLIBS = $(LIBDIRS) $(LIBS) > Make.cheapglk
+	/bin/echo GLKLIB = -l$(GLKLIB) >> Make.cheapglk
 
 $(CHEAPGLK_OBJS): glk.h $(CHEAPGLK_HEADERS)
 
