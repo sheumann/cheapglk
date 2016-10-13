@@ -25,6 +25,14 @@
 #define NULL 0
 #endif
 
+/* Define 16-bit unsigned integer type, used in some Unicode tables. */
+#ifndef __ORCAC__
+#include <stdint.h>
+typedef uint16_t glui16;
+#else
+typedef unsigned short glui16;
+#endif
+
 /* This macro is called whenever the library code catches an error
     or illegal operation from the game program. */
 
@@ -134,7 +142,7 @@ struct glk_fileref_struct {
 typedef glui32 gli_case_block_t[2]; /* upper, lower */
 /* If both are 0xFFFFFFFF, you have to look at the special-case table. */
 
-typedef glui32 gli_case_special_t[3]; /* upper, lower, title */
+typedef glui16 gli_case_special_t[3]; /* upper, lower, title */
 /* Each of these points to a subarray of the unigen_special_array
    (in cgunicode.c). In that subarray, element zero is the length,
    and that's followed by length unicode values. */

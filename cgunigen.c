@@ -3414,7 +3414,7 @@ switch ((glui32)(ch) >> 8) {  \
     default:  \
         *blockptr = NULL;  \
 }
-static glui32 unigen_special_array[] = {
+static glui16 unigen_special_array[] = {
     2, 0x53, 0x53,  /* 0xdf upcase */
     1, 0xdf,  /* 0xdf downcase */
     2, 0x53, 0x73,  /* 0xdf titlecase */
@@ -3878,8 +3878,9 @@ static gli_case_special_t unigen_special_0xfb15 = { 849, 852, 854 };
 static gli_case_special_t unigen_special_0xfb16 = { 857, 860, 862 };
 static gli_case_special_t unigen_special_0xfb17 = { 865, 868, 870 };
 
-#define GET_CASE_SPECIAL(ch, specptr)  \
-switch (ch) {  \
+#define GET_CASE_SPECIAL(ch, specptr) {  \
+if (ch != (glui16)ch)  goto no_match;  \
+switch ((glui16)ch) {  \
     case 0xdf:  \
         *specptr = unigen_special_0xdf;  \
         break;  \
@@ -4226,8 +4227,12 @@ switch (ch) {  \
         *specptr = unigen_special_0xfb17;  \
         break;  \
     default:  \
+    no_match:  \
         *specptr = NULL;  \
+}  \
 }
+
+#ifdef GLK_MODULE_UNICODE_NORM
 
 #define RETURN_COMBINING_CLASS(ch)  \
 switch ((glui32)(ch) >> 8) {  \
@@ -12191,3 +12196,4 @@ switch (ch) {  \
         *countptr = 0;  \
 }
 
+#endif /* GLK_MODULE_UNICODE_NORM */

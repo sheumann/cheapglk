@@ -186,8 +186,8 @@ static glui32 gli_buffer_change_case(glui32 *buf, glui32 len,
         int target;
         int isfirst;
         glui32 res;
-        glui32 *special;
-        glui32 *ptr;
+        glui16 *special;
+        glui16 *ptr;
         glui32 speccount;
         glui32 ch = buf[ix];
 
