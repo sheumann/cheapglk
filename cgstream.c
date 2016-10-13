@@ -14,6 +14,10 @@
     functions.) 
 */
 
+#ifdef __ORCAC__
+segment "cgstream__";
+#endif
+
 static stream_t *gli_streamlist = NULL; /* linked list of all streams */
 static stream_t *gli_currentstr = NULL; /* the current output stream */
 
